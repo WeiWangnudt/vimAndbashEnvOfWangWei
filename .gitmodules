@@ -49,3 +49,6 @@
 [submodule "pack/vendor/opt/vim-snippets"]
 	path = pack/vendor/opt/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "pack/vendor/opt/vim-snipmate"]
+	path = pack/vendor/opt/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate.git
