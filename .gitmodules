@@ -25,3 +25,6 @@
 [submodule "pack/vendor/opt/taglist"]
 	path = pack/vendor/opt/taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "pack/vendor/SrcExpl"]
+	path = pack/vendor/SrcExpl
+	url = https://github.com/vim-scripts/SrcExpl.git
