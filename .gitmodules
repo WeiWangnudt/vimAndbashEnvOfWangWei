@@ -46,3 +46,6 @@
 [submodule "pack/vendor/opt/vim-addon-mw-utils"]
 	path = pack/vendor/opt/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "pack/vendor/opt/vim-snippets"]
+	path = pack/vendor/opt/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
