@@ -55,3 +55,6 @@
 [submodule "pack/vendor/opt/code-templates"]
 	path = pack/vendor/opt/code-templates
 	url = https://github.com/WolfgangMehner/vim-plugins.git
+[submodule "pack/vendor/opt/fugitive"]
+	path = pack/vendor/opt/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
