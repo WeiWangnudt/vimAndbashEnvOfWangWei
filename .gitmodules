@@ -58,3 +58,6 @@
 [submodule "pack/vendor/opt/fugitive"]
 	path = pack/vendor/opt/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "pack/vendor/opt/AnsiEsc"]
+	path = pack/vendor/opt/AnsiEsc
+	url = https://github.com/vim-scripts/AnsiEsc.vim.git
