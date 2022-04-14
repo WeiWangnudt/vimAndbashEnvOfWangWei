@@ -25,9 +25,6 @@
 [submodule "pack/vendor/opt/taglist"]
 	path = pack/vendor/opt/taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
-[submodule "pack/vendor/SrcExpl"]
-	path = pack/vendor/SrcExpl
-	url = https://github.com/vim-scripts/SrcExpl.git
 [submodule "pack/vendor/opt/bufexplorer"]
 	path = pack/vendor/opt/bufexplorer
 	url = https://github.com/vim-scripts/bufexplorer.zip.git
@@ -76,3 +73,6 @@
 [submodule "pack/vendor/opt/syntastic"]
 	path = pack/vendor/opt/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "pack/vendor/opt/SrcExpl"]
+	path = pack/vendor/opt/SrcExpl
+	url = https://github.com/vim-scripts/SrcExpl.git
