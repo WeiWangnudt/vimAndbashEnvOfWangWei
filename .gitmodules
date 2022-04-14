@@ -31,3 +31,6 @@
 [submodule "pack/vendor/opt/bufexplorer"]
 	path = pack/vendor/opt/bufexplorer
 	url = https://github.com/vim-scripts/bufexplorer.zip.git
+[submodule "pack/vendor/opt/neocomplcache"]
+	path = pack/vendor/opt/neocomplcache
+	url = https://github.com/Shougo/neocomplcache.vim.git
