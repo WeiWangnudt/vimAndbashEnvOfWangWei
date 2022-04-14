@@ -37,3 +37,6 @@
 [submodule "pack/vendor/opt/neosnippet-snippets"]
 	path = pack/vendor/opt/neosnippet-snippets
 	url = https://github.com/Shougo/neosnippet-snippets.git
+[submodule "pack/vendor/opt/neosnippet"]
+	path = pack/vendor/opt/neosnippet
+	url = https://github.com/Shougo/neosnippet.vim.git
