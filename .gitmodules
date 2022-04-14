@@ -4,3 +4,6 @@
 [submodule "pack/vendor/opt/vim-airline-themes"]
 	path = pack/vendor/opt/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "pack/vendor/opt/vim-airline"]
+	path = pack/vendor/opt/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
