@@ -10,3 +10,6 @@
 [submodule "pack/vendor/opt/indentLine"]
 	path = pack/vendor/opt/indentLine
 	url = https://github.com/Yggdroot/indentLine.git
+[submodule "pack/vendor/opt/vim-rainbow"]
+	path = pack/vendor/opt/vim-rainbow
+	url = https://github.com/frazrepo/vim-rainbow.git
