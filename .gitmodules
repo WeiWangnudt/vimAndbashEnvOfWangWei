@@ -73,3 +73,6 @@
 [submodule "pack/vendor/opt/omnisharp"]
 	path = pack/vendor/opt/omnisharp
 	url = https://github.com/OmniSharp/omnisharp-vim.git
+[submodule "pack/vendor/opt/syntastic"]
+	path = pack/vendor/opt/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
