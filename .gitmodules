@@ -52,3 +52,6 @@
 [submodule "pack/vendor/opt/vim-snipmate"]
 	path = pack/vendor/opt/vim-snipmate
 	url = https://github.com/garbas/vim-snipmate.git
+[submodule "pack/vendor/opt/code-templates"]
+	path = pack/vendor/opt/code-templates
+	url = https://github.com/WolfgangMehner/vim-plugins.git
