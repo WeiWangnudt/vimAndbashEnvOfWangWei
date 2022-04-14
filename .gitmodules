@@ -7,3 +7,6 @@
 [submodule "pack/vendor/opt/vim-airline"]
 	path = pack/vendor/opt/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/vendor/opt/indentLine"]
+	path = pack/vendor/opt/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
