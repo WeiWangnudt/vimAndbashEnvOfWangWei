@@ -1,3 +1,6 @@
 [submodule "pack/vendor/opt/vimcdoc"]
 	path = pack/vendor/opt/vimcdoc
 	url = https://github.com/yianwillis/vimcdoc.git
+[submodule "pack/vendor/opt/vim-airline-themes"]
+	path = pack/vendor/opt/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
