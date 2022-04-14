@@ -16,3 +16,6 @@
 [submodule "pack/vendor/opt/vim-surround"]
 	path = pack/vendor/opt/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "pack/vendor/opt/Trinity"]
+	path = pack/vendor/opt/Trinity
+	url = https://github.com/WeiWangnudt/Trinity.git
