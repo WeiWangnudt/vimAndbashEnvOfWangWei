@@ -1,0 +1,3 @@
+[submodule "pack/vendor/opt/vimcdoc"]
+	path = pack/vendor/opt/vimcdoc
+	url = https://github.com/yianwillis/vimcdoc.git
