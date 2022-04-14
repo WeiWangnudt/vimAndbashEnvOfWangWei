@@ -40,3 +40,6 @@
 [submodule "pack/vendor/opt/neosnippet"]
 	path = pack/vendor/opt/neosnippet
 	url = https://github.com/Shougo/neosnippet.vim.git
+[submodule "pack/vendor/opt/tlib_vim"]
+	path = pack/vendor/opt/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
