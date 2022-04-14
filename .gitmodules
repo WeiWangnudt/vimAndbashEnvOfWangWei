@@ -19,3 +19,6 @@
 [submodule "pack/vendor/opt/Trinity"]
 	path = pack/vendor/opt/Trinity
 	url = https://github.com/WeiWangnudt/Trinity.git
+[submodule "pack/vendor/opt/nerdtree"]
+	path = pack/vendor/opt/nerdtree
+	url = https://github.com/preservim/nerdtree.git
