@@ -635,16 +635,6 @@ if addOnBufExplorer
     if isdirectory($PACK_DOC) && !filereadable($PACK_DOC.'/tags') | helptags $PACK_DOC | endif
     let isBufExplorerAdd=1
 " pack settings: {{{
-    function BufExplorerToggle()
-      if bufwinnr('BufExplorer') >= 1
-        echo "Close BufExplorer!"
-        bdelete BufExplorer
-      else
-        echo "Open BufExplorer!"
-        BufExplorerHorizontalSplit
-      endif
-    endfunction
-
     " If set, bufexplorer will bring up the selected buffer in the window specified by g:bufExplorerChgWin.
     " let g:bufExplorerChgWin=
     " To control whether the default help is displayed or not, use: >
@@ -1186,6 +1176,16 @@ if isSrcExplAdd
   nnoremap <silent> <C-e>  :SrcExplToggle<CR>
 endif
 if isBufExplorerAdd
+    function BufExplorerToggle()
+      let s:winNumOfBufExplorer=bufwinnr('BufExplorer')
+      if s:winNumOfBufExplorer >= 1
+        echo "Close BufExplorer!"
+        exe s:winNumOfBufExplorer"close"
+      else
+        echo "Open BufExplorer!"
+        BufExplorerHorizontalSplit
+      endif
+    endfunction
   nnoremap <silent> <C-b> :call BufExplorerToggle()<CR>
   nnoremap <silent> <leader>bev :BufExplorerVerticalSplit<CR>
 endif
