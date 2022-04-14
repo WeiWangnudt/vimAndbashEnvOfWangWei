@@ -34,3 +34,6 @@
 [submodule "pack/vendor/opt/neocomplcache"]
 	path = pack/vendor/opt/neocomplcache
 	url = https://github.com/Shougo/neocomplcache.vim.git
+[submodule "pack/vendor/opt/neosnippet-snippets"]
+	path = pack/vendor/opt/neosnippet-snippets
+	url = https://github.com/Shougo/neosnippet-snippets.git
