@@ -28,3 +28,6 @@
 [submodule "pack/vendor/SrcExpl"]
 	path = pack/vendor/SrcExpl
 	url = https://github.com/vim-scripts/SrcExpl.git
+[submodule "pack/vendor/opt/bufexplorer"]
+	path = pack/vendor/opt/bufexplorer
+	url = https://github.com/vim-scripts/bufexplorer.zip.git
