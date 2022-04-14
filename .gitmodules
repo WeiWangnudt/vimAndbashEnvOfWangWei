@@ -22,3 +22,6 @@
 [submodule "pack/vendor/opt/nerdtree"]
 	path = pack/vendor/opt/nerdtree
 	url = https://github.com/preservim/nerdtree.git
+[submodule "pack/vendor/opt/taglist"]
+	path = pack/vendor/opt/taglist
+	url = https://github.com/vim-scripts/taglist.vim.git
