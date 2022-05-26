@@ -1145,7 +1145,7 @@ endfunction
 command ShowPlugAddInfo :call PlugAddInfo()
 
 "------------------------------------------------------------------+
-" Platform Settings, Put Windows OS Settings Here: {{{             |
+" ShortCut Settings： {{{                                          |
 "------------------------------------------------------------------+
 " start
 " Key Maps and User Command:
