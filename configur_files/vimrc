@@ -1167,7 +1167,7 @@ endfunction
 command ShowPlugAddInfo :call PlugAddInfo()
 
 "------------------------------------------------------------------+
-" ShortCut Settings: {{{                                           |
+" Keymaps and ShortCut Settings: {{{                               |
 "------------------------------------------------------------------+
 " start
 " Key Maps and User Command:
