@@ -3,10 +3,10 @@
 § =============================================================
 
 SetMacro( 'AUTHOR',       'Wei Wang' )
-SetMacro( 'AUTHORREF',    '' )
+SetMacro( 'AUTHORREF',    'NONE' )
 SetMacro( 'EMAIL',        'wangw111@icloud.com' )
 SetMacro( 'ORGANIZATION', 'University of National Defense Technology' )
-SetMacro( 'COMPANY',      '' )
+SetMacro( 'COMPANY',      'NONE' )
 SetMacro( 'COPYRIGHT',    'Copyright (c) |YEAR|, |AUTHOR|' )
 SetMacro( 'LICENSE',      'GNU General Public License' )
 
