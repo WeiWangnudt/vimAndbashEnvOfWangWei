@@ -1110,7 +1110,7 @@ endif
 "                                                    end
 " ----------------------------------------------------}}}
 filetype plugin indent on
-function PlugAddInfo()
+function! PlugAddInfo()
   " {{{
   echo "isVimCdocAdd:"            g:isVimCdocAdd           
   echo "isAirLineAdd:"            g:isAirLineAdd           
@@ -1175,7 +1175,7 @@ if isSrcExplAdd
   nnoremap <silent> <C-e>  :SrcExplToggle<CR>
 endif
 if isBufExplorerAdd
-    function BufExplorerToggle()
+    function! BufExplorerToggle()
       let s:winNumOfBufExplorer=bufwinnr('BufExplorer')
       if s:winNumOfBufExplorer >= 1
         echo "Close BufExplorer!"
