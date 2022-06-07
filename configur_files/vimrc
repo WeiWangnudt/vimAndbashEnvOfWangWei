@@ -83,7 +83,7 @@ if((has("win32") || has("win64")|| has("win95") || has("win16")))
   let $USR_VIMFILES_DIR=$VIMHOME.'/.vim'
   let $EXUBERANT_CTAGS_PATH='C:\Users\wangw\local\bin\ctags.exe'
   let $GIT_EXE_PATH='C:\Program Files\Git\cmd\git.exe'
-  let $BROWSWERPATH='start msedge'
+  let $BROWSWERPATH='msedge.exe'
   let $VIMTEMP_DIR=$USR_VIMFILES_DIR.'/_tmp'
 "                                                            }}} end
 " -----------------------------------------------------------------+
@@ -917,7 +917,6 @@ if addOnCodeTemplate
 " pack settings: {{{
     let g:C_UseTool_cmake='yes'
     let g:C_UseTool_doxygen='yes'
-    let g:Templates_InternetBrowserExec=''
     if isGUI
       let g:Templates_InternetBrowserExec=$BROWSWERPATH
       let g:Templates_InternetBrowserFlags='--new-window'
@@ -1145,7 +1144,7 @@ endfunction
 command ShowPlugAddInfo :call PlugAddInfo()
 
 "------------------------------------------------------------------+
-" ShortCut Settings： {{{                                          |
+" ShortCut Settings: {{{                                           |
 "------------------------------------------------------------------+
 " start
 " Key Maps and User Command:
