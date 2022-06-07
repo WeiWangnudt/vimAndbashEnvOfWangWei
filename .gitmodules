@@ -76,3 +76,6 @@
 [submodule "pack/vendor/opt/SrcExpl"]
 	path = pack/vendor/opt/SrcExpl
 	url = https://github.com/vim-scripts/SrcExpl.git
+[submodule "pack/vendor/opt/doxygen-support"]
+	path = pack/vendor/opt/doxygen-support
+	url = https://github.com/vim-scripts/doxygen-support.vim.git
