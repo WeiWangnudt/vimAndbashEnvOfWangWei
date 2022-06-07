@@ -52,6 +52,7 @@ let g:addOnVimSnippets=addOnVimSnipMate "             |vim-snippets       |SnipM
 let g:addOnTlibvim=addOnVimSnipMate "                 |tlib_vim           |SnipMate                  |
 let g:addOnVimAddonMwUtils=addOnVimSnipMate "         |vim-addon-mw-utils |SnipMate                  |
 let g:addOnCodeTemplate=1 "                           |code-templates     |                          |
+let g:addOnDoxygenSupport=1 "                         |doxygen-support    |                          |
 let g:addOnFugitive=1 "                               |fugitive           |                          |
 let g:addOnVimFLog=1 "                                |vim-flog           |                          |
 let g:addOnAnsiEsc=addOnVimFLog "                     |AnsiEsc            |                          |
@@ -932,6 +933,27 @@ if addOnCodeTemplate
 endif
 "                                                    end
 " ----------------------------------------------------}}}
+" DoxygenSupport: doxygen in c-support not available--{{{
+" start
+let g:isDoxygenSupportAdd=0
+" packadd: 
+if addOnDoxygenSupport
+  let $PACK_NAME="doxygen-support"
+  if (isdirectory($USRPACKS_OPT_DIR.'/'.$PACK_NAME))
+    packadd $PACK_NAME
+    let $PACK_DIR=$USRPACKS_OPT_DIR.'/'.$PACK_NAME
+    let $PACK_DOC=finddir("doc", $PACK_DIR)
+    if isdirectory($PACK_DOC) && !filereadable($PACK_DOC.'/tags') | helptags $PACK_DOC | endif
+    let g:isDoxygenSupportAdd=1
+" pack settings: {{{
+" }}}
+  else
+    echo $PACK_NAME "not found, add on fail."
+  endif
+" pack keymap and shortcut ->see Keymap Settings Below
+endif
+"                                                    end
+" ----------------------------------------------------}}}
 " Fugitive: branch sign on Airline--------------------{{{
 " start
 let g:isFugitiveAdd=0
@@ -1132,6 +1154,7 @@ function! PlugAddInfo()
   echo "isTlibVimAdd:"            g:isTlibVimAdd           
   echo "isVimAddonMwUtilsAdd:"    g:isVimAddonMwUtilsAdd   
   echo "isCodeTemplateAdd:"       g:isCodeTemplateAdd      
+  echo "isDoxygenSupportAdd:"     g:isDoxygenSupportAdd      
   echo "isFugitiveAdd:"           g:isFugitiveAdd          
   echo "isVimFLogAdd:"            g:isVimFLogAdd           
   echo "isAnsiEscAdd:"            g:isAnsiEscAdd           
