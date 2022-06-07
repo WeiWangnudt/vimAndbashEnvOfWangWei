@@ -89,8 +89,7 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-#alias ll='ls -alF'
-alias ll='ls -lF'
+alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
@@ -119,12 +118,3 @@ if ! shopt -oq posix; then
 fi
 
 #custom
-export PATH=/home/wangwei/.local/bin:$PATH
-alias vim='vim -u /home/wangwei/.vimrc'
-source /etc/profile.d/modules.sh
-eval "$(oh-my-posh --init --shell bash --config ~/.sorin.omp.json)"
-stty -ixon
-
-#ln server custom
-#source /usr/local/slurm-plus/slurm_env.sh
-
